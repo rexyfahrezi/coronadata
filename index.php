@@ -17,7 +17,7 @@ include 'data.php';
   </head>
   <body>		
 	<div class="header">
-		<h1>Data Coronavirus Indonesia</h1>
+		<h1>Realtime Data Coronavirus Indonesia</h1>
 	</div>
 	
 	<div class="data">
@@ -41,7 +41,7 @@ include 'data.php';
 				  <div class="card-body">
 					<h5 class="card-title">Positif</h5>
 					<p class="card-text">
-						<?php echo $positif;?>
+						<?php echo $positif." Orang";?>
 					</p>
 				  </div>
 				</div>
@@ -52,7 +52,7 @@ include 'data.php';
 				  <div class="card-body">
 					<h5 class="card-title">Sembuh</h5>
 					<p class="card-text">
-						<?php echo $sembuh;?>
+						<?php echo $sembuh." Orang";?>
 					</p>
 				  </div>
 				</div>
@@ -63,7 +63,7 @@ include 'data.php';
 				  <div class="card-body">
 					<h5 class="card-title">Meninggal</h5>
 					<p class="card-text">
-						<?php echo $meninggal;?>
+						<?php echo $meninggal." Orang";?>
 					</p>
 				  </div>
 				</div>
