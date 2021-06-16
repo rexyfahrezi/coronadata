@@ -41,7 +41,7 @@ function exceptions_error_handler($severity, $message, $filename, $lineno) {
   if (error_reporting() & $severity) {
     //throw new ErrorException($message, 0, $severity, $filename, $lineno);
 	echo "<script type='text/javascript'>alert('Nama provinsi tidak ditemukan');</script>";
-	header("Refresh: 2; URL=/index.php", true, 301);
+	header("Refresh: 1; URL=/index.php", true, 301);
 	//membuat kode di bawah header tidak diproses oleh website sehingga lebih aman
 	exit();
   }
