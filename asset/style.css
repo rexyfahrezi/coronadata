@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif !important;
+  color: #444444;
+}
+
+.header {
+  padding: 25px;
+  text-align: center;
+  background: #206A5D;
+  color: white;
+  font-size: 25px;
+
+}
+
+.container {
+	padding: 25px;
+}
+
+.data {
+	background: #E4EFE7;
+}
+
+.card {
+	padding: 10px;
+	margin: 10px;
+}
+
+.card-img-top {
+    width: 128px;
+    height: 128px;
+	fill: white;
+	padding: 20px;
+}
+
+.card-provinsi {
+	padding: 10px;
+	margin: 10px;
+	background-color: rgba(245, 245, 245, 0.10);
+	border: none;
+}
+
+.card-positif {
+	background: #C05555;
+	color: white;
+}
+
+.card-sembuh {
+	background: #72B896;
+	color: white;
+}
+
+.card-meninggal {
+	background: #6F7777;
+	color: white;
+}
+
+
+#button-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form {
+	padding: 10px;
+}
+
+.primary-button {
+	margin: 10px;
+    border: 2px solid #444444;
+    border-radius: 500px;
+    width: 250px;
+    height: 48px;
+    overflow: hidden;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: #444444;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.primary-button:hover {
+    cursor: pointer;
+	color: #ffffff;
+	background: #206A5D;
+    border: 2px solid #ffffff;
+}
+
+.tips {
+	background: #f5f5f5;
+}
+
+.tips-container {
+	padding: 75px;
+}
